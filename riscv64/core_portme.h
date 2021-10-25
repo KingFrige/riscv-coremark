@@ -57,6 +57,15 @@ Original Author: Shay Gal-on
 #define HAS_PRINTF 1
 #endif
 
+
+// config insnInfo/topdown read
+#ifndef HAS_TOPDOWN_READM_READ
+#define HAS_TOPDOWN_READM_READ 1
+#endif
+// #ifndef HAS_INSNINFO_READ
+// #define HAS_INSNINFO_READ 1
+// #endif
+
 /* Configuration: CORE_TICKS
 	Define type of return from the timing functions.
  */
